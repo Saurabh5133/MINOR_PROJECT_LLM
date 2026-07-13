@@ -4,7 +4,7 @@ export default function Header({ serviceStatus, llmStatus }) {
   return (
     <header className="header">
       <div className="header-brand">
-        <div className="header-logo">QF</div>
+        <div className="header-logo">SE</div>
         <div>
           <div className="header-title">MultiCloud Query Cost Analyzer and Recommendation System</div>
           <div className="header-sub">SQL Optimization Engine</div>
