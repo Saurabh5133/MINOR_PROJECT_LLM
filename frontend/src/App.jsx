@@ -202,12 +202,12 @@ export default function App() {
               >
                 📊 Standard
               </button>
-              <button
+              {/* <button
                 className={`mode-btn ${mode === 'mysql' ? 'active' : ''}`}
                 onClick={() => { setMode('mysql'); setResult(null) }}
               >
                 🐬 MySQL
-              </button>
+              </button> */}
             </div>
             {mode === 'mysql' && (
               <div style={{ fontSize:11, color: isMysqlReady ? 'var(--green)' : 'var(--orange)', marginTop:6 }}>
